@@ -48,7 +48,6 @@
 				8086FDD7170E472AB8528162 /* Pods-TaskListMVVM.debug.xcconfig */,
 				09CAA1B4BAAA8CF34FAF861A /* Pods-TaskListMVVM.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -58,6 +57,28 @@
 				28903FEB625AFBCDA3FF7879 /* Pods_TaskListMVVM.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A128A1F275D2C110038FFAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6A128A20275D2C190038FFAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A1B2CFE275D284B0017D6ED /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6A128A21275D2C240038FFAA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		6A1B2CEE275D284B0017D6ED = {
@@ -83,7 +104,9 @@
 			children = (
 				6A1B2CFA275D284B0017D6ED /* AppDelegate.swift */,
 				6A1B2CFC275D284B0017D6ED /* SceneDelegate.swift */,
-				6A1B2CFE275D284B0017D6ED /* ViewController.swift */,
+				6A128A1F275D2C110038FFAA /* Models */,
+				6A128A20275D2C190038FFAA /* Views */,
+				6A128A21275D2C240038FFAA /* ViewModels */,
 				6A1B2D00275D284B0017D6ED /* Main.storyboard */,
 				6A1B2D03275D284D0017D6ED /* Assets.xcassets */,
 				6A1B2D05275D284D0017D6ED /* LaunchScreen.storyboard */,
