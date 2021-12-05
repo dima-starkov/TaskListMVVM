@@ -59,7 +59,7 @@ extension TaskListViewController: UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             let task = taskArray[indexPath.row]
-            RealmManager.changeTask(task: task, isDeleted: true, isCompleted: true)
+            RealmManager.changeTask(task: task, isDeleted: true, isCompleted: task.isCompleted)
             taskTable.reloadData()
         }
     }
