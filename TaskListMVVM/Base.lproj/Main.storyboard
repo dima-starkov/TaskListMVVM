@@ -27,7 +27,7 @@
         <!--Новая Задача-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TaskListMVVM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="NewTaskViewController" customModule="TaskListMVVM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -76,7 +76,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="Qzj-H9-hmX">
-                                        <rect key="frame" x="0.0" y="248.5" width="374" height="351.5"/>
+                                        <rect key="frame" x="0.0" y="249" width="374" height="351"/>
                                         <color key="tintColor" systemColor="systemIndigoColor"/>
                                         <locale key="locale" localeIdentifier="ru_RU"/>
                                     </datePicker>
