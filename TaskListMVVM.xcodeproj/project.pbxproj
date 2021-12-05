@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		162BB316E40D318D384934B4 /* Pods_TaskListMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28903FEB625AFBCDA3FF7879 /* Pods_TaskListMVVM.framework */; };
 		6A1B2CFB275D284B0017D6ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1B2CFA275D284B0017D6ED /* AppDelegate.swift */; };
 		6A1B2CFD275D284B0017D6ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1B2CFC275D284B0017D6ED /* SceneDelegate.swift */; };
 		6A1B2CFF275D284B0017D6ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1B2CFE275D284B0017D6ED /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09CAA1B4BAAA8CF34FAF861A /* Pods-TaskListMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskListMVVM.release.xcconfig"; path = "Target Support Files/Pods-TaskListMVVM/Pods-TaskListMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		28903FEB625AFBCDA3FF7879 /* Pods_TaskListMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskListMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A1B2CF7275D284B0017D6ED /* TaskListMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskListMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A1B2CFA275D284B0017D6ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A1B2CFC275D284B0017D6ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		6A1B2D03275D284D0017D6ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A1B2D06275D284D0017D6ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A1B2D08275D284D0017D6ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8086FDD7170E472AB8528162 /* Pods-TaskListMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskListMVVM.debug.xcconfig"; path = "Target Support Files/Pods-TaskListMVVM/Pods-TaskListMVVM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				162BB316E40D318D384934B4 /* Pods_TaskListMVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48E7B3205100A64114D8AE6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8086FDD7170E472AB8528162 /* Pods-TaskListMVVM.debug.xcconfig */,
+				09CAA1B4BAAA8CF34FAF861A /* Pods-TaskListMVVM.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		52270C3255C56AB19DFBE805 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28903FEB625AFBCDA3FF7879 /* Pods_TaskListMVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6A1B2CEE275D284B0017D6ED = {
 			isa = PBXGroup;
 			children = (
 				6A1B2CF9275D284B0017D6ED /* TaskListMVVM */,
 				6A1B2CF8275D284B0017D6ED /* Products */,
+				48E7B3205100A64114D8AE6F /* Pods */,
+				52270C3255C56AB19DFBE805 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A1B2D0B275D284D0017D6ED /* Build configuration list for PBXNativeTarget "TaskListMVVM" */;
 			buildPhases = (
+				8C0BFB1470880A31423DA446 /* [CP] Check Pods Manifest.lock */,
 				6A1B2CF3275D284B0017D6ED /* Sources */,
 				6A1B2CF4275D284B0017D6ED /* Frameworks */,
 				6A1B2CF5275D284B0017D6ED /* Resources */,
+				91D34AB0102BAC1460084154 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C0BFB1470880A31423DA446 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskListMVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91D34AB0102BAC1460084154 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskListMVVM/Pods-TaskListMVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskListMVVM/Pods-TaskListMVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskListMVVM/Pods-TaskListMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6A1B2CF3275D284B0017D6ED /* Sources */ = {
@@ -284,6 +353,7 @@
 		};
 		6A1B2D0C275D284D0017D6ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8086FDD7170E472AB8528162 /* Pods-TaskListMVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +382,7 @@
 		};
 		6A1B2D0D275D284D0017D6ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09CAA1B4BAAA8CF34FAF861A /* Pods-TaskListMVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
