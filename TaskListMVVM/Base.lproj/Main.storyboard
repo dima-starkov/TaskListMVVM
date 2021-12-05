@@ -11,7 +11,7 @@
         <!--Удаленные Задачи-->
         <scene sceneID="Yw9-Au-Lbs">
             <objects>
-                <viewController id="4Ps-dk-fiz" sceneMemberID="viewController">
+                <viewController id="4Ps-dk-fiz" customClass="DeletedTaskViewController" customModule="TaskListMVVM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xfF-H7-LZ0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -127,7 +127,7 @@
         <!--Список Задач-->
         <scene sceneID="g4Y-t0-1dw">
             <objects>
-                <viewController id="Qsi-i6-IhY" sceneMemberID="viewController">
+                <viewController id="Qsi-i6-IhY" customClass="TaskListViewController" customModule="TaskListMVVM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="POx-eK-Y6k">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
