@@ -82,10 +82,6 @@
 		6A128A20275D2C190038FFAA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6A1B2CFE275D284B0017D6ED /* NewTaskViewController.swift */,
-				6A128A22275D35860038FFAA /* TaskListViewController.swift */,
-				6A128A24275D35960038FFAA /* DeletedTaskViewController.swift */,
-				6A128A2A275D41590038FFAA /* TaskTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -122,6 +118,7 @@
 				6A128A1F275D2C110038FFAA /* Models */,
 				6A128A20275D2C190038FFAA /* Views */,
 				6A128A21275D2C240038FFAA /* ViewModels */,
+				6A67F170276DFF0B00C20A23 /* Controllers */,
 				6A128A28275D35DD0038FFAA /* RealmManager.swift */,
 				6A1B2D00275D284B0017D6ED /* Main.storyboard */,
 				6A1B2CFA275D284B0017D6ED /* AppDelegate.swift */,
@@ -131,6 +128,25 @@
 				6A1B2D08275D284D0017D6ED /* Info.plist */,
 			);
 			path = TaskListMVVM;
+			sourceTree = "<group>";
+		};
+		6A67F170276DFF0B00C20A23 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A67F171276DFF2300C20A23 /* Cells */,
+				6A1B2CFE275D284B0017D6ED /* NewTaskViewController.swift */,
+				6A128A22275D35860038FFAA /* TaskListViewController.swift */,
+				6A128A24275D35960038FFAA /* DeletedTaskViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6A67F171276DFF2300C20A23 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6A128A2A275D41590038FFAA /* TaskTableViewCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
